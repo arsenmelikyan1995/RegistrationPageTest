@@ -1,6 +1,6 @@
 #!/bin/bash
-origin_jar_name="RegistrationPage-0.0.1.war"
-rename_jar_name="RegistrationPage.war"
+origin_war_name="RegistrationPage-0.0.1.war"
+rename_war_name="RegistrationPage.war"
 
 echo "########## BUILDING WAR FILE ##########"
 mvn clean package install
